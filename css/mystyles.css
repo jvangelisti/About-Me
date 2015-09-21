@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #C2EB71;
+}
+a:visited {
+    text-decoration: none;
+    color: #A2A981;
+}
+a:hover {
+    color: #79C05E;
+}
+a:active {
+    color: #D7E560;
+}
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    margin-bottom: 4em;
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/W8It2vK.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #C2EB71;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C2EB71;
+    text-shadow: 0px 3px 2px #78C059;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #898989;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #78C059;
+}
+
+.section-titles {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.social > li {
+    display: inline-block;
+    padding-right: 1em;
+    font-weight: bold;
+    color: #C2EB71;
+}
+
+.content-footer > p {
+    color: white;
+    margin: -.5em 0em;
+}
+
+.content-footer {
+    letter-spacing: 0.05em;
+    background-size: 10em;
+    background-color: #536E64;
+    margin-top: 5em;
+    margin-bottom: -1em;
+    padding: 6.9em 0em;
+}
